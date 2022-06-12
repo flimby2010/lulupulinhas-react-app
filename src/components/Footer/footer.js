@@ -1,5 +1,4 @@
 import React from "react";
-import { FaHeart } from "react-icons/fa";
 import { FaInstagram, FaFacebook, FaBeer } from "react-icons/fa";
 import "./style.css";
 

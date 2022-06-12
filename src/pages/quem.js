@@ -2,14 +2,7 @@ import React from "react";
 
 const QuemSomos = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "Right",
-        alignItems: "Right",
-        height: "100vh",
-      }}
-    >
+    <div>
       <h1>quem somos</h1>
     </div>
   );

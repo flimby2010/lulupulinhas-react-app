@@ -1,18 +1,16 @@
 import React from "react";
 
-const QuemSomos = () => {
+const Eventos = () => {
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "Right",
-        alignItems: "Right",
-        height: "100vh",
-      }}
-    >
-      <h1>quem somos</h1>
+    <div>
+      <h1>
+        Eventos
+        nskdjskjsknkdnkdnfkdnfkndksnfdnfksnfksfnksnfksnksnfksnfsnfksfnkfnskfnklsfnksnfksfnwfnkejfjdlwjdlwjlfnekflwjdljlqsfjowfjvlejvljdljfkjdfdljd
+        lfjekfjekfnfkejfnlefj fk;fkflfklfklkflfekgljgfoehfekfeg
+        emfjflflfkdkkdkfkfkf
+      </h1>
     </div>
   );
 };
 
-export default QuemSomos;
+export default Eventos;
