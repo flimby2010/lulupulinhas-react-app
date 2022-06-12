@@ -1,5 +1,4 @@
 import React from "react";
-import hero from "./images/hero.jpg";
 
 const Home = () => {
   return (
@@ -12,7 +11,7 @@ const Home = () => {
       }}
     >
       <h1>Heloo from home!</h1>
-      <img src={hero} alt="logo" />
+      <img src={require("../images/Hero.jpg")} alt="logo" />
     </div>
   );
 };

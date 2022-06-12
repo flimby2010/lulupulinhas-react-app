@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer/footer";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
 import QuemSomos from "./pages/quem";
 import Produtos from "./pages/produtos";
@@ -13,13 +13,13 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route path="/" exact element={Home} />
-        <Route path="/quem" element={QuemSomos} />
-        <Route path="/produtos" element={Produtos} />
-        <Route path="/eventos" element={Eventos} />
-        <Route path="/contato" element={Contato} />
-      </Routes>
+      <Switch>
+        <Route path="/" exact components={Home} />
+        <Route path="/quem" components={QuemSomos} />
+        <Route path="/produtos" components={Produtos} />
+        <Route path="/eventos" components={Eventos} />
+        <Route path="/contato" components={Contato} />
+      </Switch>
       <Footer />
     </Router>
   );
