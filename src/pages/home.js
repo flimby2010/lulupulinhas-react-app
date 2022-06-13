@@ -4,8 +4,7 @@ import "./pages.css";
 const Home = () => {
   return (
     <div>
-      <h1>Heloo from home!</h1>
-      <img src={require("../images/Hero.jpg")} alt="logo" />
+      <h1>Pagina principal</h1>
     </div>
   );
 };

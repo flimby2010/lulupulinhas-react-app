@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Footer from "./components/Footer/footer";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home";
 import QuemSomos from "./pages/quem";
@@ -12,7 +12,7 @@ import Contato from "./pages/contato";
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Hero />
       <Switch>
         <Route path="/" exact components={Home} />
         <Route path="/quem" components={QuemSomos} />
