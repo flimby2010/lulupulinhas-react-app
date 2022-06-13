@@ -1,8 +1,9 @@
 import React from "react";
+import "./pages.css";
 
 const Contato = () => {
   return (
-    <div>
+    <div className="style">
       <h1>Contato</h1>
     </div>
   );

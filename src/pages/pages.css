@@ -1,7 +1,3 @@
-{
-        display: "flex",
-        justifyContent: "Center",
-        alignItems: "Right",
-        height: "100vh",
-        
-      }
+.style {
+  background-color: #404040;
+}
