@@ -22,7 +22,7 @@ export const HeroItems = styled.div`
   height: 100vh;
   max-height: 100%;
   padding: 0 2rem;
-  width: 400px;
+  width: 300px;
   color: #fff;
   text-transform: uppercase;
   line-height: 1;
