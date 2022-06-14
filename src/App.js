@@ -25,7 +25,7 @@ function App() {
         <Route path="/contato" components={Contato} />
       </Switch>
       <Products heading="Nossos produtos" data={productData} />
-      <Products heading="Próximos eventos" data={productDataTwo} />
+      <Products heading="Últimos eventos" data={productDataTwo} />
       <Footer />
     </Router>
   );

@@ -1,9 +1,9 @@
 import product1 from "../../images/product-1.png";
 import product2 from "../../images/product-2.png";
 import product3 from "../../images/product-3.png";
-import sweet1 from "../../images/sweet3.jpg";
-import sweet2 from "../../images/sweet-2.jpg";
-import sweet3 from "../../images/sweet-3.jpg";
+import event1 from "../../images/event1.png";
+import event2 from "../../images/event2.png";
+import event3 from "../../images/event3.png";
 
 export const productData = [
   {
@@ -34,27 +34,21 @@ export const productData = [
 
 export const productDataTwo = [
   {
-    img: sweet2,
-    alt: "Donuts",
-    name: "Doughlicious",
-    desc: "Belgian chocolate glazed donuts covered in icing with sprinkles on top",
-    price: "$9.99",
-    button: "Add to Cart",
+    img: event1,
+    alt: "Evento",
+    name: "Cervejaria Ovelha",
+    desc: "Visita a fábrica da Cervejaria Ovelha em Pinhais",
   },
   {
-    img: sweet3,
-    alt: "Ice Cream",
-    name: "Caramel Wonder",
-    desc: "Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick",
-    price: "$12.99",
-    button: "Add to Cart",
+    img: event2,
+    alt: "Evento",
+    name: "NutBier",
+    desc: "Visita a fábrica e plantação de cogumelos",
   },
   {
-    img: sweet1,
-    alt: "Brownie",
-    name: "Brownie Bunch",
-    desc: "Double fudge brownie squares topped with white chocolate pieces and macadamia nuts",
-    price: "$9.99",
-    button: "Add to Cart",
+    img: event3,
+    alt: "Evento",
+    name: "Cervejaria Ovelha",
+    desc: "Visita a fábrica da Cervejaria Ovelha em Pinhais",
   },
 ];
