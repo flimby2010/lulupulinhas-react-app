@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "../Navbar";
-import "Hero.css";
+import "./Hero.css";
 
 const Homepage = () => {
   const [isOpen, setIsOpen] = useState(false);

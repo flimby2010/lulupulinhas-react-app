@@ -1,5 +1,5 @@
 .HeroContainer {
-  background: url(${Hero.jpg});
+  background-image: url(${Hero.jpg});
   height: 100vh;
   background-position: center;
   background-size: cover;

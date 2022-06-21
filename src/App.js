@@ -8,11 +8,13 @@ import QuemSomos from "./pages/quem";
 import Produtos from "./pages/produtos";
 import Eventos from "./pages/eventos";
 import Contato from "./pages/contato";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
     <Router>
       <GlobalStyle />
+      <Navbar />
       <Switch>
         <Route path="/" exact components={Inicio} />
         <Route path="/quem" components={QuemSomos} />
