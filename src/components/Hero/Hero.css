@@ -1,20 +1,17 @@
-import styled from "styled-components";
-import ImgBg from "../../images/Hero.jpg";
-
-export const HeroContainer = styled.div`
-  background: url(${ImgBg});
+.HeroContainer {
+  background: url(${Hero.jpg});
   height: 100vh;
   background-position: center;
   background-size: cover;
-`;
+}
 
-export const HeroContent = styled.div`
+.HeroContent {
   height: calc(100vh - 80px);
   max-height: 100%;
   padding: 0rem calc((100vw - 1300px) / 2);
-`;
+}
 
-export const HeroItems = styled.div`
+.HeroItems {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,32 +28,32 @@ export const HeroItems = styled.div`
   @media screen and (max-width: 650px) {
     width: 100%;
   }
-`;
+}
 
-export const HeroH1 = styled.h1`
+.HeroH1 {
   font-size: clamp(2.5rem, 10vw, 5rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
-`;
+}
 
-export const HeroP = styled.p`
+.HeroP {
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
-`;
+}
 
-export const HeroBtn = styled.button`
+.HeroBtn {
   font-size: 1.4rem;
   padding: 1rem 4rem;
   border: none;
   background: #404040;
   color: #fac100;
   transition: 0.2s ease-out;
+}
 
-  &:hover {
-    background: #ffc500;
-    transition: 0.2s ease-out;
-    cursor: pointer;
-    color: #000;
-  }
-`;
+.hover {
+  background: #ffc500;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  color: #000;
+}
