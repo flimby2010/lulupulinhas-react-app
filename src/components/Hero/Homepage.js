@@ -1,18 +1,10 @@
-import React, { useState } from "react";
-import Navbar from "../Navbar";
+import React from "react";
+
 import "./Hero.css";
 
 const Homepage = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
-
   return (
     <div className="HeroContainer">
-      <Navbar toggle={toggle} />
-
       <div className="HeroContent">
         <div className="HeroItems">
           <div className="HeroH1">👋 Somos as Lulupulinhas!</div>

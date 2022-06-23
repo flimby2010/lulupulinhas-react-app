@@ -1,30 +1,34 @@
 import React from "react";
-import "./App.css";
-import { GlobalStyle } from "./globalStyles";
-import Footer from "./components/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { Route, Switch, Redirect } from "react-router-dom";
 import Inicio from "./pages/inicio";
 import QuemSomos from "./pages/quem";
 import Produtos from "./pages/produtos";
 import Eventos from "./pages/eventos";
 import Contato from "./pages/contato";
-import Navbar from "./components/Navbar";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <Router>
-      <GlobalStyle />
-      <Navbar />
+    <Layout>
       <Switch>
-        <Route path="/" exact components={Inicio} />
-        <Route path="/quem" components={QuemSomos} />
-        <Route path="/produtos" components={Produtos} />
-        <Route path="/eventos" components={Eventos} />
-        <Route path="/contato" components={Contato} />
+        <Route path="/" exact>
+          <Redirect to="/inicio" />
+          <Inicio />
+        </Route>
+        <Route path="/quem" exact>
+          <QuemSomos />
+        </Route>
+        <Route path="/produtos">
+          <Produtos />
+        </Route>
+        <Route path="/eventos">
+          <Eventos />
+        </Route>
+        <Route path="/contato">
+          <Contato />
+        </Route>
       </Switch>
-
-      <Footer />
-    </Router>
+    </Layout>
   );
 }
 
