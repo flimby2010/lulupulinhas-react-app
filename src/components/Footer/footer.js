@@ -17,7 +17,7 @@ const Footer = () => {
         </a>
       </div>
       <div className="footer__copyright">
-        Made with by <FaHeart color="#B51942" /> Speak up Tech
+        Made with by <FaHeart color="#B51942" />
       </div>
     </footer>
   );

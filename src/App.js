@@ -1,11 +1,11 @@
 import React from "react";
-import { Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Route, Switch, Redirect } from "react-router-dom";
 import Inicio from "./pages/inicio";
 import QuemSomos from "./pages/quem";
 import Produtos from "./pages/produtos";
 import Eventos from "./pages/eventos";
 import Contato from "./pages/contato";
-import Layout from "./components/layout/Layout";
+import Layout from "./components/layout/layout";
 
 function App() {
   return (
