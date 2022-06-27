@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Route, Switch, Redirect } from "react-router-dom";
+import {BrowserRouter as Route, Switch, Redirect} from "react-router-dom";
 import Inicio from "./pages/inicio";
 import QuemSomos from "./pages/quem";
 import Produtos from "./pages/produtos";
@@ -12,20 +12,20 @@ function App() {
     <Layout>
       <Switch>
         <Route path="/" exact>
-          <Redirect to="/inicio" />
-          <Inicio />
+          <Redirect to="/inicio"/>
+          <Inicio/>
         </Route>
         <Route path="/quem" exact>
-          <QuemSomos />
+          <QuemSomos/>
         </Route>
         <Route path="/produtos">
-          <Produtos />
+          <Produtos/>
         </Route>
         <Route path="/eventos">
-          <Eventos />
+          <Eventos/>
         </Route>
         <Route path="/contato">
-          <Contato />
+          <Contato/>
         </Route>
       </Switch>
     </Layout>

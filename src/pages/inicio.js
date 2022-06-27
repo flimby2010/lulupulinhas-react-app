@@ -4,7 +4,7 @@ import Homepage from "../components/Hero/Homepage";
 const Inicio = () => {
   return (
     <div>
-      <Homepage />
+      <Homepage/>
     </div>
   );
 };

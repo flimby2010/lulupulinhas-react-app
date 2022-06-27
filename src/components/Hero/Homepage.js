@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Hero.css";
 
-const Homepage = () => {
+export default function Homepage() {
   return (
     <div className="HeroContainer">
       <div className="HeroContent">
@@ -15,5 +15,3 @@ const Homepage = () => {
     </div>
   );
 };
-
-export default Homepage;
