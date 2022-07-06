@@ -1,5 +1,5 @@
 .HeroContainer {
-  background-image: ("../../images/logo.png");
+  background-image: url("../../images/hero.png");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -26,21 +26,29 @@
   font-weight: bold;
 
   @media screen and (max-width: 650px) {
-    width: 100%;
+    width: 50%;
   }
 }
 
 .HeroH1 {
-  font-size: clamp(2.5rem, 10vw, 5rem);
+  font-size: clamp(1.5rem, 9vw, 4rem);
   margin-bottom: 1rem;
   box-shadow: 3px 5px #e9ba23;
   letter-spacing: 3px;
   text-align: left;
+
+  @media screen and (max-width: 650px) {
+    width: 50%;
+  }
 }
 
 .HeroP {
   font-size: clamp(2rem, 2.5vw, 3rem);
   margin-bottom: 2rem;
+
+  @media screen and (max-width: 650px) {
+    width: 50%;
+  }
 }
 
 .HeroBtn {

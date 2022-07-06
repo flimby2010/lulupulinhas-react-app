@@ -5,8 +5,9 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        {" "}
-        <img src={require("../../images/logo.png")} alt="logo" />{" "}
+        <NavLink to="/inicio" activeClassName={classes.active}>
+          <img src={require("../../images/logo.png")} alt="logo" />{" "}
+        </NavLink>
       </div>
       <nav className={classes.nav}>
         <ul>

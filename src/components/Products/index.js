@@ -1,37 +1,27 @@
 import React from "react";
-import {
-  ProductsContainer,
-  ProductWrapper,
-  ProductsHeading,
-  ProductTitle,
-  ProductCard,
-  ProductImg,
-  ProductInfo,
-  ProductDesc,
-  ProductPrice,
-  ProductButton,
-} from "./ProductsElements";
+import "./data";
+import "./products.css";
 
 const Products = ({ heading, data }) => {
   return (
-    <ProductsContainer>
-      <ProductsHeading>{heading}</ProductsHeading>
-      <ProductWrapper>
+    <div className="ProductsContainer">
+      <div className="ProductsHeading">{heading}</div>
+      <div className="ProductWrapper">
         {data.map((product, index) => {
           return (
-            <ProductCard key={index}>
-              <ProductImg src={product.img} alt={product.alt} />
-              <ProductInfo>
-                <ProductTitle>{product.name}</ProductTitle>
-                <ProductDesc>{product.desc}</ProductDesc>
-                <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
-              </ProductInfo>
-            </ProductCard>
+            <div className="ProductCard" key={index}>
+              <div className="ProductImg" src={product.img} alt={product.alt} />
+              <div className="ProductInfo">
+                <div className="ProductTitle">{product.name}</div>
+                <div className="ProductDesc">{product.desc}</div>
+                <div className="ProductPrice">{product.price}</div>
+                <div className="ProductButton">{product.button}</div>
+              </div>
+            </div>
           );
         })}
-      </ProductWrapper>
-    </ProductsContainer>
+      </div>
+    </div>
   );
 };
 
