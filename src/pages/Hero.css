@@ -1,12 +1,5 @@
 .HeroContainer {
-  background-image: url("../../images/hero.png");
-  height: 100vh;
-  background-position: center;
-  background-size: cover;
-}
-
-.HeroCon {
-  background-image: url("../../images/banner.png");
+  background-image: url("../images/banner.png");
   height: 100vh;
   background-position: center;
   background-size: cover;

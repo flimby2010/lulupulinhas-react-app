@@ -1,0 +1,9 @@
+.style {
+  background-color: #404040;
+}
+
+.banner {
+  height: calc(100vh - 80px);
+  max-height: 10%;
+  padding: 0rem calc((100vw - 1300px) / 2);
+}
