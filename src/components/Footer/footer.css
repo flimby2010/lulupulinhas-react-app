@@ -1,0 +1,12 @@
+.footer {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #fac100;
+  border-radius: 5px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 30px;
+  color: #404040;
+  display: block;
+  justify-content: space-evenly;
+  position: relative;
+  text-align: center;
+}

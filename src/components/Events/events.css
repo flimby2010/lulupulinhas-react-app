@@ -1,0 +1,62 @@
+.EventsContainer {
+  min-height: 100vh;
+  padding: 5rem calc((100vw - 1300px) / 2);
+  background: #404040;
+  color: #ffffff;
+}
+
+.EventsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.EventsCard {
+  margin: 0 2rem;
+  line-height: 2;
+  width: 300px;
+}
+
+.EventsImg {
+  height: 300px;
+  min-width: 300px;
+  max-width: 100%;
+  box-shadow: 8px 8px #fac100;
+}
+
+.EventsHeading {
+  font-size: clamp(2rem, 2.5vw, 3rem);
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.EventsTitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.EventsInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  text-align: center;
+}
+
+.EventsButton {
+  font-size: 1rem;
+  padding: 1rem 4rem;
+  border: none;
+  background: #ffffff;
+  color: #404040;
+  transition: 0.2 ease-out;
+}
+
+.hover {
+  background: #fac100;
+  transition: 0.2s ease-out;
+  cursor: pointer;
+  color: #404040;
+}

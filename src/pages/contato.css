@@ -1,0 +1,9 @@
+.contato {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #404040;
+  border-radius: 16px;
+  box-shadow: 0px 30px 50px rgba(65, 50, 100, 0.08);
+  padding: 40px;
+  color: #fac100;
+  text-align: center;
+}

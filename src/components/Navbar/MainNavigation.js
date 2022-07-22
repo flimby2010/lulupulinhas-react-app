@@ -5,7 +5,7 @@ const MainNavigation = () => {
   return (
     <header className={classes.header}>
       <div className={classes.logo}>
-        <NavLink to="/inicio" activeClassName={classes.active}>
+        <NavLink to="/" activeClassName={classes.active}>
           <img src={require("../../images/logo.png")} alt="logo" />{" "}
         </NavLink>
       </div>

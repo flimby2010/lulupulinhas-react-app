@@ -1,17 +1,9 @@
 import React from "react";
-import "./pages.module.css";
+import { eventData } from "../components/Events/data";
+import Events from "../components/Events/index";
 
 const Eventos = () => {
-  return (
-    <div>
-      <h1>
-        Eventos
-        nskdjskjsknkdnkdnfkdnfkndksnfdnfksnfksfnksnfksnksnfksnfsnfksfnkfnskfnklsfnksnfksfnwfnkejfjdlwjdlwjlfnekflwjdljlqsfjowfjvlejvljdljfkjdfdljd
-        lfjekfjekfnfkejfnlefj fk;fkflfklfklkflfekgljgfoehfekfeg
-        emfjflflfkdkkdkfkfkf
-      </h1>
-    </div>
-  );
+  return <Events heading="Nossos eventos" data={eventData} />;
 };
 
 export default Eventos;

@@ -2,24 +2,28 @@ import React from "react";
 import { FaBeer } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
-import "./footer.module.css";
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
-      <div className="footer__social">
-        <a href="https://www.instagram.com/lulupulinhas/">
-          <FaInstagram size="30" color="#fff" />
+    <div className="footer">
+      <footer>
+        <a
+          href="https://www.instagram.com/lulupulinhas/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaInstagram size="40" color="#404040" />
+        </a>{" "}
+        <a
+          href="https://pt-br.facebook.com/lulupulinhas"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FaFacebook size="40" color="#404040" />
         </a>
-
-        <a href="https://pt-br.facebook.com/lulupulinhas/">
-          <FaFacebook size="30" color="#fff" />
-        </a>
-      </div>
-      <div className="footer__copyright">
-        Lulupulinhas. Todos os direitos reservados. <FaBeer color="#404040" />
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
 };
 
