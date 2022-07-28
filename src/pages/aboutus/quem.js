@@ -6,7 +6,7 @@ const QuemSomos = () => {
   return (
     <div className="QuemSomos">
       <h1>Há mais de 7 anos apoiando o mercado cervejeiro! 🍻</h1>
-      <img src={require("../images/quemsomos.png")} width="1000px"></img>
+      <img src={require("../../images/quemsomos.png")} width="1000px"></img>
       <p>
         Somos um grupo de 60 mulheres que se reuniu, em 2015, para conhecer mais
         sobre a cultura cervejeira e compartilhar momentos, confraternizando e
@@ -15,23 +15,22 @@ const QuemSomos = () => {
         relacionados ao universo da cerveja artesanal.
       </p>
       <h2>Como são os encontros das Lulupulinhas 🍻</h2>
+      <img src={require("../../images/encontros.png")} width="1000px"></img>
       <p>
         Os encontros das Lulupulinhas são sempre divididos em 3 momentos:
-        <ul>
-          <li>1. Aprendizado</li>
-          <li>2. Degustação </li>
-          <li>3. Confraternização</li>
-        </ul>
+        <p> Aprendizado | Degustação | Confraternização </p>
       </p>
 
       <h2>Nossas cervejas 🍻</h2>
+      <img src={require("../../images/cervejas.png")} width="300px"></img>
       <p>
         Além de conhecer e consumir cervejas artesanais em suas visitas à bares
         e cervejarias, as Lulupulinhas já lançaram 5 rótulos próprios de
         cervejas artesanais.
       </p>
 
-      <h2>Por onde as Lulupulinhas já passaram </h2>
+      <h2>Por onde as Lulupulinhas já passaram 🍻 </h2>
+      <img src={require("../../images/rpc.png")} width="500px"></img>
       <p>
         Hausbier | Saborearte | Bierhof | Crazy4Beer | Mestre Cervejeiro |
         Bastards Brewery | Sapopemba | Gauden Bier | Beer ́Brew | Nut Beer |

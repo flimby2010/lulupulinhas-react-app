@@ -1,10 +1,10 @@
 import React from "react";
 import { BrowserRouter as Route, Switch, Redirect } from "react-router-dom";
-import Inicio from "./pages/inicio";
-import QuemSomos from "./pages/quem";
-import Produtos from "./pages/produtos";
-import Eventos from "./pages/eventos";
-import Contato from "./pages/contato";
+import Inicio from "./pages/homepage/inicio";
+import QuemSomos from "./pages/aboutus/quem";
+import Produtos from "./pages/products/produtos";
+import Eventos from "./pages/events/eventos";
+import Contato from "./pages/contact/contato";
 import Layout from "./components/layout/layout";
 
 function App() {

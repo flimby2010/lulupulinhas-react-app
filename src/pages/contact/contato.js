@@ -9,7 +9,7 @@ const Contato = () => {
   return (
     <div className="contato">
       <h1>Quer tomar uma cerveja conosco ?</h1>
-      <img src={require("../images/contato.png")} width="200px"></img>
+      <img src={require("../../images/contato.png")} width="200px"></img>
 
       <h2> Instagram</h2>
       <p>
